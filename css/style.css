@@ -123,6 +123,7 @@ body {
 .btn-white {
     background-image: linear-gradient(to right bottom, #ffffff, #e4e4e4);
     color: #777;
+    font-weight: 700;
 }
 
 .btn::after {
@@ -143,5 +144,6 @@ body {
 }
 
 .btn:hover::after {
-    transform: scale(1.1);
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }
